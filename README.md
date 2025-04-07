@@ -96,21 +96,24 @@ python src/ui/ui_interface.py
 ```
 PenTest_Automation/
 ├── data/
-│   └── vuln_data.csv          # Training dataset for AI model
-├── ai_core/
-│   └── classifier.py          # Model logic and prediction
-├── recon/
-│   └── recon_main.py
-├── vulnscan/
-│   └── scan_main.py
-├── exploit/
-│   └── exploit_main.py
-├── privesc/
-│   └── priv_esc.py
-├── ui/
-│   └── ui_interface.py        # Main GUI entry point
-├── main.py
-└── README.md
+│   └── vuln_data.csv              # Training dataset for AI model
+├── src/
+│   ├── ai_core/
+│   │   └── classifier.py          # Model logic and prediction
+│   ├── recon/
+│   │   └── recon_main.py
+│   ├── vulnscan/
+│   │   └── scan_main.py
+│   ├── exploit/
+│   │   └── exploit_main.py
+│   ├── privesc/
+│   │   └── priv_esc.py
+│   ├── ui/
+│   │   └── ui_interface.py        # Main GUI entry point
+│   └── main.py                    # Entry point for CLI (if needed)
+├── README.md
+└── venv/                          # Optional: Virtual environment folder
+
 ```
 
 ---
