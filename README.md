@@ -41,6 +41,8 @@ cd PenTest_Automation
 ```
 
 Ensure the following folders/files are in place:
+
+```
 PenTest_Automation/
 ├── data/
 │   └── vuln_data.csv
@@ -51,8 +53,10 @@ PenTest_Automation/
 │   ├── exploit/
 │   ├── privesc/
 │   ├── ui/
+│   │   └── ui_interface.py
 │   └── main.py
 ├── README.md
+```
 
 ---
 
