@@ -43,6 +43,7 @@ cd PenTest_Automation
 Ensure the following folders/files are in place:
 PenTest_Automation/
 
+PenTest_Automation/
 ├── data/
 │   └── vuln_data.csv
 ├── src/
