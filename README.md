@@ -109,7 +109,7 @@ PenTest_Automation/
 │   └── priv_esc.py
 ├── ui/
 │   └── ui_interface.py        # Main GUI entry point
-├── logs/
+├── main.py
 └── README.md
 ```
 
