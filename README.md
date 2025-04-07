@@ -41,13 +41,19 @@ cd PenTest_Automation
 ```
 
 Ensure the following folders/files are in place:
-- `ai_core/`
-- `recon/`
-- `vulnscan/`
-- `exploit/`
-- `privesc/`
-- `ui/` (contains `ui_interface.py`)
-- `data/` (contains `vuln_data.csv`)
+PenTest_Automation/
+├── data/
+│   └── vuln_data.csv
+├── src/
+│   ├── ai_core/
+│   ├── recon/
+│   ├── vulnscan/
+│   ├── exploit/
+│   ├── privesc/
+│   ├── ui/
+│   └── main.py
+├── README.md
+
 
 ---
 
